@@ -2,7 +2,7 @@
 Add dialogs to your site for lightboxes, user notifications, or completely custom content.
 
 ```javascript
-import { BasicModal, ConfirmationModal } from "react-bootstrap-dynamic-modal"; 
+import { BasicModal, ConfirmationModal } from "react-bootstrap-modals"; 
 ```
 ### Basic Modal
 Basic modal behaves similar to bootstrap modal
