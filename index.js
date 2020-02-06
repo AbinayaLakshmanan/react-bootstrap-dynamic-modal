@@ -7,12 +7,12 @@ import ModalFooter from 'react-bootstrap/ModalFooter';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const htmlParser = require('html-react-parser');
-export const BasicModal = ({ visibility, customClass, size, onHide, closeButton, title, body, buttons }) => {
-    return <Modal show={visibility} className={customClass} size={size ? size : 'lg'} onHide={() => { if (typeof onHide === 'function') onHide(); }} scrollable>
-        <ModalHeader closeButton={typeof closeButton === "boolean" ? closeButton : true}>
+export const BasicModal = ({ visibility,modalClass, headerClass,bodyClass, size, onHide, closeButton, title, body, buttons }) => {
+    return <Modal className={modalClass} show={visibility} size={size ? size : 'lg'} onHide={() => { if (typeof onHide === 'function') onHide(); }} scrollable>
+        <ModalHeader className={headerClass} closeButton={typeof closeButton === "boolean" ? closeButton : true}>
             <ModalTitle>{typeof title === 'string' ? htmlParser(title) : title}</ModalTitle>
         </ModalHeader>
-        <ModalBody>
+        <ModalBody className={bodyClass}>
             {typeof body === 'string' ? htmlParser(body) : body}
         </ModalBody>
         <ModalFooter>
