@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-dynamic-modal",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Add dialogs to your site for light boxes, user notifications, or completely custom content.",
   "main": "./build/bundle.js",
   "scripts": {
@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbinayaLakshamanan/react-bootstrap-dynamic-modal.git"
+    "url": "git+https://github.com/AbinayaLakshmanan/react-bootstrap-dynamic-modal.git"
   },
   "bugs": {
-    "url": "https://github.com/AbinayaLakshamanan/react-bootstrap-dynamic-modal/issues"
+    "url": "https://github.com/AbinayaLakshmanan/react-bootstrap-dynamic-modal/issues"
   },
-  "homepage": "https://github.com/AbinayaLakshamanan/react-bootstrap-dynamic-modal#readme"
+  "homepage": "https://github.com/AbinayaLakshmanan/react-bootstrap-dynamic-modal#readme"
 }
