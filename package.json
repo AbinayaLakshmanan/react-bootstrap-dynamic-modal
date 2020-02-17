@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-dynamic-modal",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Add dialogs to your site for light boxes, user notifications, or completely custom content.",
   "main": "./build/bundle.js",
   "scripts": {
