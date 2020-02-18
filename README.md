@@ -47,6 +47,7 @@ function App() {
     body: "Are you sure?",
     size: 'xs',
     isAnimate: false,
+    isCenter: true,
     buttons: [
       {
         variant: "secondary",
@@ -66,6 +67,7 @@ function App() {
     body: "Your session timeout due to security",
     size: 'xs',
     isAnimate: false,
+    isCenter: true,
     buttons: [
       {
         variant: "primary",
@@ -116,5 +118,6 @@ Alert Modal
 | bodyClass  |  String  |   |  Customizable class to be applied on modal body |
 | modalClass  |  String  |   |  Customizable class to be applied on modal |
 | isAnimate  |  Boolean  |  true  | A Modal can also be animated. For that set the "animation" prop to false/true.  |
+| isCenter  |  Boolean  |  false  | A Modal can also be position Centered. For that set the "isCenter" prop to false/true.  |
 | buttons  | Array of objects  |   | Represents button in modal footer  |
 | onHide  |  Function |   | Fired(Triggered) when modal hides |
